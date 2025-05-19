@@ -28,27 +28,6 @@ Una **SPA** para gestionar tareas (CRUD) con React, Vite y Zustand.
 
 ---
 
-## 📁 Estructura del proyecto
-
-/
-├─ public/
-│ └─ index.html
-├─ src/
-│ ├─ components/
-│ │ ├─ ListTareas/
-│ │ └─ Header/
-│ ├─ http/
-│ │ └─ tareas.ts
-│ ├─ store/
-│ │ └─ tareaStore.ts
-│ ├─ styles/
-│ ├─ App.tsx
-│ └─ main.tsx
-├─ db.json
-├─ package.json
-├─ tsconfig.json
-└─ vite.config.ts
-
 ## 📝 Uso
 
 - Listar: Verás todas las tareas al cargar.
