@@ -1,0 +1,47 @@
+.containerPrincipalListTareas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--spacing-lg);
+  gap: var(--spacing-md);
+}
+
+.containerTitleAndButton {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerTitleAndButton h2 {
+  font-size: 1.5rem;
+  color: var(--color-secondary);
+}
+
+.containerTitleAndButton button {
+  padding: var(--spacing-xs) var(--spacing-sm);
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: var(--border-radius);
+  color: #fff;
+  transition: filter 0.2s ease, background-color 0.2s ease;
+}
+
+.containerTitleAndButton button:hover {
+  filter: brightness(0.85);
+  cursor: pointer;
+}
+
+.containerList {
+  width: 70%;
+  background: linear-gradient(
+    90deg,
+    var(--color-card-bg-start) 0%,
+    var(--color-card-bg-end) 100%
+  );
+  border-radius: var(--border-radius);
+  padding: var(--spacing-sm);
+  max-height: 60vh;
+  overflow-y: auto;
+  border: 1px solid var(--color-border);
+}

@@ -1,0 +1,14 @@
+.containerHeader {
+  width: 100%;
+  height: 8vh;
+  background-color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  padding: 0 var(--spacing-lg);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.containerTituloHeader h2 {
+  color: #000000 !important; 
+  font-weight: 700;
+  font-size: 1.5rem;
+}

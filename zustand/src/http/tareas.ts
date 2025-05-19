@@ -15,7 +15,9 @@ export const getAllTareas = async (): Promise<Itarea[]> => {
 
 export const postNuevaTarea = async (nuevaTarea: Itarea): Promise<Itarea> => {
   try {
-    const response = await axios.post<Itarea>(API_URL, nuevaTarea);
+    const response = await axios.post<Itarea>(API_URL, {
+      ...nuevaTarea
+    });
     return response.data;
   } catch (error) {
     console.error("Error al crear tarea:", error);
